@@ -1,2 +1,5 @@
-# Ignore _site
+# Jekyll-related files that should be ignored
+.jekyll-cache/
+.jekyll-metadata
 _site/
+.sass-cache/
