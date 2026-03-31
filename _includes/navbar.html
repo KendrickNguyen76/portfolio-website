@@ -3,8 +3,9 @@
   
   <div class=navbar_right>
     {% for item in site.data.navigation %}
-      <a href="{{ item.link | relative_url }}"
-         class="navbar_text oswald_regular {% if page.url == item.link %}current{% endif %}">
+    <a href="{{ item.link | relative_url }}"
+         class="navbar_text oswald_regular {% if page.url == item.link %}current{% endif %}"
+         {% if item.name == "Resume" %}target="_blank" rel="noopener noreferrer"{% endif %}>
         {{ item.name }}
       </a>
     {% endfor %}
