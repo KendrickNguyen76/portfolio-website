@@ -1,29 +1,9 @@
+/* imports */
+@import "navbar.css";
+
 /* General Formatting */
 body {
   background-color: #E7EBC5;
-}
-
-/* Classes */
-.navbar {
-  display: flex;
-  align-items: center;
-  padding: 0 20px;
-}
-
-.navbar_right {
-  margin-left: auto;
-  display: flex;
-  gap: 40px;
-}
-
-.navbar_text {
-  color: #51344d;
-  font-size: 24px;
-  text-decoration: none;
-}
-
-.navbar_text.current {
-  color: #C1121F;
 }
 
 /* Fonts */
