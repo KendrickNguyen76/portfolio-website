@@ -1,14 +1,30 @@
-.current {
-  color: green;
+/* General Formatting */
+body {
+  background-color: #E7EBC5;
 }
 
+/* Classes */
 .navbar_text {
-  font-size: 14;
+  color: #51344d;
+  font-size: 24px;
+  text-decoration: none;
 }
 
-.oswald-font {
+.navbar_text.current {
+  color: #C1121F;
+}
+
+/* Fonts */
+.oswald_regular {
   font-family: "Oswald", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
+  font-style: normal;
+}
+
+.oswald_medium {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
   font-style: normal;
 }

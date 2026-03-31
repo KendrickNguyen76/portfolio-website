@@ -1,6 +1,9 @@
 <nav>
+  <a href="/" class="navbar_text oswald_medium">Kendrick N.</a>
+
   {% for item in site.data.navigation %}
-    <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>
+    <a href="{{ item.link | relative_url }}"
+       class="navbar_text oswald_regular {% if page.url == item.link %}current{% endif %}">
       {{ item.name }}
     </a>
   {% endfor %}
