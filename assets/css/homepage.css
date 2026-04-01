@@ -1,0 +1,8 @@
+#hero_statement {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#hero_statement_desc {
+}
