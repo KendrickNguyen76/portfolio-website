@@ -33,16 +33,19 @@ p {
     "wdth" 100;
 }
 
-button {
+/* General classes */
+
+.button {
   border: 0;
-  line-height: 2.5;
+  line-height: 2;
   border-radius: 5px;
-  font-size: 1rem;
-  padding: 0 15px;
+  font-size: 1.20rem;
+  padding: 0 20px;
+  text-decoration: none;
 }
 
 /* Fonts */
-.oswald_regular, h1 {
+.oswald_regular, h1, .button {
   font-family: "Oswald", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;

@@ -1,3 +1,4 @@
+/* Hero Statement Section */
 #hero_statement {
   display: flex;
   justify-content: center;
@@ -7,10 +8,37 @@
 
 #hero_buttons {
   display: flex;
-  gap: 50px;
+  gap: 35px;
   margin: 20px 0;
 }
 
+#contact_button {
+  color: white;
+  background-color: #51344d;
+}
+
+#contact_button:hover {
+  background-color: #734b6c;
+}
+
+#contact_button:active {
+  background-color: #362333;
+}
+
+#project_button {
+  color: #51344d;
+  background-color: white;
+}
+
+#project_button:hover {
+  background-color: #eeeeee;
+}
+
+#project_button:active {
+  background-color: #cccccc;
+}
+
+/* About Me Section */
 #about_me {
   margin: 0;
   padding: 0;
