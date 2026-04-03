@@ -4,6 +4,8 @@
 
 /* General Formatting */
 body {
+  margin: 0;
+  padding: 0;
   background-color: #E7EBC5;
 }
 
@@ -36,10 +38,11 @@ button {
   line-height: 2.5;
   border-radius: 5px;
   font-size: 1rem;
+  padding: 0 15px;
 }
 
 /* Fonts */
-.oswald_regular {
+.oswald_regular, h1 {
   font-family: "Oswald", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
