@@ -16,6 +16,8 @@ h1 {
 }
 
 h2 {
+  margin: 0;
+  padding: 0;
   color: #51344d;
   font-size: 2rem;
 }
@@ -34,7 +36,6 @@ p {
 }
 
 /* General classes */
-
 .button {
   border: 0;
   line-height: 2;
