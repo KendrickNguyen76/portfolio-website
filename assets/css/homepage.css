@@ -2,5 +2,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 300px;
+}
+
+#about_me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  background-color: #989788;
+}
+
+#about_me h2 {
+  color: #e7ebc5;
 }
 
