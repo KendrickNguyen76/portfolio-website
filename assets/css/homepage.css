@@ -73,11 +73,29 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 400px;
+  height: 450px;
 }
 
 .project_card {
-  width: 250px;
-  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #e7ebc5;
+  width: 275px;
+  height: 350px;
+  font-size: 1.25rem;
   background-color: #51344d;
+  border-radius: 20px;
+}
+
+.project_card img {
+  width: 50%;
+}
+
+.project_card p {
+  text-align: center;
+  color: #e7ebc5;
+  font-size: 0.875rem;
+  margin: 0 2rem;
 }

@@ -46,7 +46,7 @@ p {
 }
 
 /* Fonts */
-.oswald_regular, h1, .button {
+.oswald_regular, h1, .button, h3 {
   font-family: "Oswald", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
