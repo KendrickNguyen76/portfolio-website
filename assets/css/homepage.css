@@ -73,7 +73,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 450px;
+  height: 500px;
+}
+
+#project_cards_section {
+  margin-top: 2rem;
 }
 
 .project_card {
@@ -87,6 +91,7 @@
   font-size: 1.25rem;
   background-color: #51344d;
   border-radius: 20px;
+  transition: transform 0.3s ease-in-out;
 }
 
 .project_card img {
@@ -98,4 +103,8 @@
   color: #e7ebc5;
   font-size: 0.875rem;
   margin: 0 2rem;
+}
+
+.project_card:hover {
+  transform: scale(1.1);
 }
