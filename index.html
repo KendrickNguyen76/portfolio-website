@@ -15,6 +15,11 @@ title: Home
   </div>
   <div id="hero_specialization">
     <p>Specializing In...</p>
+    <div id="image_cluster">
+      {% for image in site.data.code_images %}
+        <img src="{{ image.image_path }}" alt="{{ image.alt_text }}">
+      {% endfor %}
+    </div>
   </div>
 </div>
 

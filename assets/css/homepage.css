@@ -40,8 +40,19 @@
 
 #hero_specialization {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+}
+
+#image_cluster {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 100%;
+}
+
+#image_cluster img {
+  width: 50px;
+  height: auto;
 }
 
 /* About Me Section */
