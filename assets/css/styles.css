@@ -2,29 +2,46 @@
 @import "navbar.css";
 @import "homepage.css";
 
+/* Color variables */
+:root {
+  /* Main color pallete */
+  --primary-bg-color: #E7EBC5;
+  --secondary-bg-color: #989788;
+  --header-color: #51344d;
+  --text-color: #6f5060;
+  --highlight-color: #C1121F;
+  /* Button Colors */
+  --dark-button-text: white;
+  --dark-button-hover: #734b6c;
+  --dark-button-active: #362333;
+  --light-button-bg: white;
+  --light-button-hover: #eeeeee;
+  --light-button-active: #cccccc;
+}
+
 /* General Formatting */
 body {
   margin: 0;
   padding: 0;
-  background-color: #E7EBC5;
+  background-color: var(--primary-bg-color);
 }
 
 h1 {
   margin: 0 !important;
   padding: 0;
-  color: #51344d;
+  color: var(--header-color);
 }
 
 h2 {
   margin: 0;
   padding: 0;
-  color: #51344d;
+  color: var(--header-color);
   font-size: 2rem;
 }
 
 p {
   margin: 0;
-  color: #6f5060;
+  color: var(--text-color);
   /* Font settings for paragraph text */
   font-size: 1.25rem;
   font-family: "Open Sans", sans-serif;

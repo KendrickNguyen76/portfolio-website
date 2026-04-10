@@ -13,29 +13,29 @@
 }
 
 #contact_button {
-  color: white;
-  background-color: #51344d;
+  color: var(--dark-button-text);
+  background-color: var(--header-color);
 }
 
 #contact_button:hover {
-  background-color: #734b6c;
+  background-color: var(--dark-button-hover);
 }
 
 #contact_button:active {
-  background-color: #362333;
+  background-color: var(--dark-button-active);
 }
 
 #project_button {
-  color: #51344d;
-  background-color: white;
+  color: var(--header-color);
+  background-color: var(--light-button-bg);
 }
 
 #project_button:hover {
-  background-color: #eeeeee;
+  background-color: var(--light-button-hover);
 }
 
 #project_button:active {
-  background-color: #cccccc;
+  background-color: var(--light-button-active);
 }
 
 #hero_specialization {
@@ -53,15 +53,15 @@
   justify-content: center;
   align-items: center;
   height: 500px;
-  background-color: #989788;
+  background-color: var(--secondary-bg-color);
 }
 
 #about_me h2 {
-  color: #e7ebc5;
+  color: var(--primary-bg-color);
 }
 
 #about_me p {
-  color: #e7ebc5;
+  color: var(--primary-bg-color);
   font-size: 1rem;
   margin: 1.5rem 5rem 0rem;
   line-height: 1.5;
@@ -84,7 +84,7 @@
   gap: 30px;
 }
 
-#project_cards_section a {
+#project_cards_div a {
   text-decoration: none;
 }
 
@@ -93,11 +93,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: #e7ebc5;
+  color: var(--primary-bg-color);
   width: 275px;
   height: 350px;
   font-size: 1.25rem;
-  background-color: #51344d;
+  background-color: var(--header-color);
   border-radius: 20px;
   transition: transform 0.3s ease-in-out;
 }
@@ -108,7 +108,7 @@
 
 .project_card p {
   text-align: center;
-  color: #e7ebc5;
+  color: var(--primary-bg-color);
   font-size: 0.875rem;
   margin: 0 2rem;
 }
