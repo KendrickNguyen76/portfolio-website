@@ -80,6 +80,10 @@
   margin-top: 2rem;
 }
 
+#project_cards_section a {
+  text-decoration: none;
+}
+
 .project_card {
   display: flex;
   flex-direction: column;

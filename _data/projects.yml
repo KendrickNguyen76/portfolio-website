@@ -1,0 +1,5 @@
+- name: "NASA Psyche VR Museum"
+  description: "An immersive virtual reality experience showcasing the art of NASA Psyche Interns. Written using Unity and C#."
+  link: "https://psyche.ssl.berkeley.edu/get-involved/capstone-projects/capstone-projects-platinum-class/vr-psyche-inspired-art-and-artist-showcase-19e/" 
+  image: "/assets/images/psyche_badge.png"
+  alt_text: "Psyche Mission Badge"
