@@ -48,7 +48,7 @@ title: Home
 <div id="project_preview">
   <h2>Projects</h2>
   <div id="project_cards_div">
-    {% for project in site.data.projects %}
+    {% for project in site.data.projects limit:3 %}
       <a href="{{ project.link }}" target="_blank" rel="noopener noreferrer">
         <div class="project_card">
           <img src="{{ project.image }}" alt="{{ project.alt_text }}">
@@ -58,4 +58,6 @@ title: Home
       </a>
     {% endfor %}
   </div>
+
+  <a id="view_more_projs" class="oswald_regular" href="/projects.html">View More</a>
 </div>

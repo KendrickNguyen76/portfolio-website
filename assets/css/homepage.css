@@ -73,7 +73,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 550px;
+  height: 575px;
 }
 
 #project_cards_div {
@@ -115,4 +115,18 @@
 
 .project_card:hover {
   transform: scale(1.1);
+}
+
+#view_more_projs {
+  margin-top: 2rem;
+  color: var(--text-color);
+  font-size: 1.25rem;
+  text-decoration: none;
+}
+
+#view_more_projs:hover {
+  color: var(--highlight-color);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 8px;
 }
