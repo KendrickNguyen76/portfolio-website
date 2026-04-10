@@ -73,11 +73,15 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 500px;
+  height: 550px;
 }
 
-#project_cards_section {
+#project_cards_div {
   margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
 }
 
 #project_cards_section a {
