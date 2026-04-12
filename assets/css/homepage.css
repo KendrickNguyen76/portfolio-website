@@ -3,7 +3,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 300px;
+  gap: 10rem;
+  height: 520px;
 }
 
 #hero_buttons {
@@ -38,21 +39,38 @@
   background-color: var(--light-button-active);
 }
 
+/* Hero Statement Section - Images */
 #hero_specialization {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
+  gap: 20px;
+  width: 220px;
 }
 
+/* 
+ * The image_cluster selector creates a grid that attempts to create as many
+ * columns as possible within the width of the hero_specialization div. At a
+ * minimum, the column width is 100px, but can expand to be 1fr.
+ */
 #image_cluster {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 
 #image_cluster img {
-  width: 50px;
+  width: 100%;
   height: auto;
+  display: block;
+}
+
+/* The last image should expand to take up both columns */
+#image_cluster img:last-child {
+  grid-column: 1 / -1;
 }
 
 /* About Me Section */
