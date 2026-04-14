@@ -1,0 +1,7 @@
+- image_path: "/assets/images/github.png"
+  link: "https://github.com/KendrickNguyen76"
+  alt_text: "Github Logo"
+- image_path: "/assets/images/linkedin.png"
+  link: "https://www.linkedin.com/in/kendrick-nguyen-9956a6240/"
+  alt_text: "LinkedIn Logo"
+

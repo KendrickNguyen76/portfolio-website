@@ -27,6 +27,12 @@ title: Contact Me
 
   <div id="other_links">
     <h2>Connect with me on:</h2>
-    <!-- Put in a bunch of links here for different social media sites like: Github, LinkedIn, etc. -->
+    <div id="social_media_icons">
+      {% for social in site.data.social_media %}
+        <a href="{{ social.link }}" target="_blank" rel="noopener noreferrer">
+          <img class="icon_link" src="{{ social.image_path }}" alt="{{ social.alt_text }}"/>
+        </a>
+      {% endfor %}
+    </div>
   </div>
 </div>

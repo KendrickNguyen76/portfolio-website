@@ -5,6 +5,7 @@
   align-items: center;
 }
 
+/* Email Form */
 .container {
   display: flex;
   flex-direction: column;
@@ -49,4 +50,29 @@
 .form-group textarea {
   width: 100%;
   font-size: 1rem;
+}
+
+/* Social Media Links */
+#other_links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#social_media_icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px; 
+  margin: 10px 0;
+}
+
+#social_media_icons a {
+  width: fit-content;
+}
+
+.icon_link {
+  width: 60px;
+  height: auto;
 }
