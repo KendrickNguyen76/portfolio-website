@@ -9,8 +9,8 @@ title: Home
     <h1>Kendrick Nguyen</h1>
     <p>Aspiring Software Engineer and<br>Back-end Developer</p>
     <div id="hero_buttons">
-      <a id="contact_button" class="button" href="{% link contact_me.html %}">Get in touch</a>
-      <a id="project_button" class="button" href="{% link projects.html %}">View my work</a>
+      <a id="contact_button" class="button" href="{{ '/contact_me.html' | relative_url }}">Get in touch</a>
+      <a id="project_button" class="button" href="{{ '/projects.html' | relative_url }}">View my work</a>
     </div>
   </div>
   <div id="hero_specialization">
