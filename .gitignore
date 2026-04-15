@@ -3,3 +3,6 @@
 .jekyll-metadata
 _site/
 .sass-cache/
+
+# Ignore Gemlock file
+Gemfile.lock
