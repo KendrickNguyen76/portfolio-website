@@ -17,7 +17,7 @@ title: Home
     <p>Specializing In...</p>
     <div id="image_cluster">
       {% for image in site.data.code_images %}
-        <img src="{{ image.image_path }}" alt="{{ image.alt_text }}">
+        <img src="{{ image.image_path | relative_url }}" alt="{{ image.alt_text }}">
       {% endfor %}
     </div>
   </div>
