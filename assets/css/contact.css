@@ -75,4 +75,5 @@
 .icon_link {
   width: 60px;
   height: auto;
+  filter: brightness(0) saturate(100%) invert(33%) sepia(9%) saturate(1296%) hue-rotate(276deg) brightness(97%) contrast(89%);
 }
