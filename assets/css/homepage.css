@@ -102,7 +102,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 575px;
+  height: auto;
+  margin: 3rem 0;
 }
 
 #project_cards_div {
