@@ -7,11 +7,11 @@
 /* Color variables */
 :root {
   /* Main color pallete */
-  --primary-bg-color: #E7EBC5;
-  --secondary-bg-color: #989788;
-  --header-color: #51344d;
-  --text-color: #6f5060;
-  --highlight-color: #C1121F;
+  --primary-bg-color: #fffcf2ff;
+  --secondary-bg-color: #ccc5b9ff;
+  --header-color: #403d39ff;
+  --text-color: #252422ff;
+  --highlight-color: #eb5e28ff;
   /* Button Colors */
   --dark-button-text: white;
   --dark-button-hover: #734b6c;
